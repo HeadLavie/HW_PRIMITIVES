@@ -7,9 +7,9 @@ public class Main {
         int bonus;
 
         if (ticket > 20) {
-            System.out.println(bonus = ticket / 20);
+            System.out.println("Количество миль:" + (bonus = ticket / 20));
         } else {
-            System.out.println(bonus = 0);
+            System.out.println("Количество миль:" +(bonus = 0));
         }
 
 
